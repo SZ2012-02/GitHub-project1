@@ -1,0 +1,197 @@
+.clearFix(){
+    *zoom: 1;
+    &:after{
+        content: "\200B";
+        display: block;
+        clear: both;
+        height: 0;
+    }
+}
+.outer{
+    .headerWrap{
+        .headerBar{
+            width: 100%;
+            background-color: #eaeaea;
+            height: 30px;
+            line-height: 30px;
+
+            .container{
+                width: 1200px;
+                margin: 0 auto;
+                .clearFix();
+                .login{
+                    float: left;
+                    p{
+                        float: left;
+                        margin-right: 10px;
+                        .register{
+                            border-left: 1px solid #b3aeae;
+                            margin-left: 5px;
+                            padding: 0 5px;
+                        }
+                    }
+                }
+                .order{
+                    float: right;
+                    font-size: 0;
+                    a{
+                        font-size: 12px;
+                        padding: 0 10px;
+                        & ~ a{
+                            border-left: 1px solid #b3aeae;
+                        }
+                    }
+                }
+            }
+
+        }
+
+        &>.logo{
+            
+            width: 1200px;
+            margin: 0 auto;
+            .clearFix();
+            .logoArea{
+                float: left;
+                img{
+                    width: 175px;
+                    height: 56px;
+                    margin: 25px 45px;
+                }
+            }
+
+            .searchBar{
+                float: right;
+                margin-top: 35px;
+                .searchForm{
+                    .clearFix();
+                    input{
+                        box-sizing: border-box;
+                        width: 490px;
+                        height: 32px;
+                        padding: 0 10px;
+                        border: 2px solid #ea4a36;
+                        float: left;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    button{
+                        width: 68px;
+                        height: 32px;
+                        background-color: #ea4a36;
+                        color: #fff;
+                        border: none;
+                        float: left;
+                        cursor: pointer;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    // 商品分类
+    .typeNav{
+        border-bottom: #e1251b 2px solid;
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+           .all{
+               width: 210px;
+               height: 50px;
+               color: #fff;
+               background-color: #e1251b;
+               text-align: center;
+               line-height: 50px;
+               font-weight: bold;
+               font-size: 14px;
+           }
+           .nav{
+               a{
+                   font-size: 16px;
+                   color: #333;
+                   line-height: 50px;
+                   margin: 0 22px;
+               }
+           }
+        }
+    }
+
+
+    .footer{
+        margin-top: 15px;
+        width: 100%;
+        background-color: #eaeaea;
+        .footerWrap{
+            width: 1200px;
+            margin: 0 auto;
+            border-bottom: 1px solid #e4e1e1;
+            padding: 20px;
+            .clearFix();
+            .no1{
+                padding-left: 40px;
+            }
+            .service{
+                // padding: 20px;
+                
+                float: left;
+                width: 16.66666%;
+                line-height: 18px;
+                & + service{
+                    padding-left: 20px;
+                }
+                h5{
+                    font-size: 14px;
+                    font-weight: bolder;
+                    color: #000;
+                }
+
+
+            }
+            .help{
+                h5{
+                    font-size: 14px;
+                    font-weight: bolder;
+                    color: #000;
+                }
+            }
+            
+        }
+        
+        .aboutUs{
+            padding: 20px;
+            
+            .helpLink{
+                text-align: center;
+                margin-bottom: 5px;
+                li{
+                    display: inline;
+                    .lin{
+                        border-left: 1px solid #666;
+                        width: 1px;
+                        height: 13px;
+                        background-color: #666;
+                        margin: 8px 10px;
+                    }
+                    .nn2{
+                        border-left:none;
+                    }
+
+                }
+            }
+        }
+        p{
+            text-align: center;
+            padding: 5px 0;
+        }
+        .address{
+            padding-bottom: 20px;
+        }
+    }
+    
+
+}

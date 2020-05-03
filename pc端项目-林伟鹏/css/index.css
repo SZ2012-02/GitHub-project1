@@ -1,0 +1,928 @@
+.outer .headerWrap .headerBar {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 30px;
+  line-height: 30px;
+}
+.outer .headerWrap .headerBar .container {
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.outer .headerWrap .headerBar .container:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap .headerBar .container:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap .headerBar .container .login {
+  float: left;
+}
+.outer .headerWrap .headerBar .container .login p {
+  float: left;
+  margin-right: 10px;
+}
+.outer .headerWrap .headerBar .container .login p .register {
+  border-left: 1px solid #b3aeae;
+  margin-left: 5px;
+  padding: 0 5px;
+}
+.outer .headerWrap .headerBar .container .order {
+  float: right;
+  font-size: 0;
+}
+.outer .headerWrap .headerBar .container .order a {
+  font-size: 12px;
+  padding: 0 10px;
+}
+.outer .headerWrap .headerBar .container .order a ~ a {
+  border-left: 1px solid #b3aeae;
+}
+.outer .headerWrap > .logo {
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.outer .headerWrap > .logo:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap > .logo:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap > .logo .logoArea {
+  float: left;
+}
+.outer .headerWrap > .logo .logoArea img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+.outer .headerWrap > .logo .searchBar {
+  float: right;
+  margin-top: 35px;
+}
+.outer .headerWrap > .logo .searchBar .searchForm {
+  *zoom: 1;
+}
+.outer .headerWrap > .logo .searchBar .searchForm:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap > .logo .searchBar .searchForm:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap > .logo .searchBar .searchForm input {
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0 10px;
+  border: 2px solid #ea4a36;
+  float: left;
+}
+.outer .headerWrap > .logo .searchBar .searchForm input:focus {
+  outline: none;
+}
+.outer .headerWrap > .logo .searchBar .searchForm button {
+  width: 68px;
+  height: 32px;
+  background-color: #ea4a36;
+  color: #fff;
+  border: none;
+  float: left;
+  cursor: pointer;
+}
+.outer .headerWrap > .logo .searchBar .searchForm button:focus {
+  outline: none;
+}
+.outer .typeNav {
+  border-bottom: #e1251b 2px solid;
+}
+.outer .typeNav .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.outer .typeNav .container .all {
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  background-color: #e1251b;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.outer .typeNav .container .nav a {
+  font-size: 16px;
+  color: #333;
+  line-height: 50px;
+  margin: 0 22px;
+}
+.outer .footer {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #eaeaea;
+}
+.outer .footer .footerWrap {
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e4e1e1;
+  padding: 20px;
+  *zoom: 1;
+}
+.outer .footer .footerWrap:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .footer .footerWrap:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .footer .footerWrap .no1 {
+  padding-left: 40px;
+}
+.outer .footer .footerWrap .service {
+  float: left;
+  width: 16.66666%;
+  line-height: 18px;
+}
+.outer .footer .footerWrap .service + service {
+  padding-left: 20px;
+}
+.outer .footer .footerWrap .service h5 {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+}
+.outer .footer .footerWrap .help h5 {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+}
+.outer .footer .aboutUs {
+  padding: 20px;
+}
+.outer .footer .aboutUs .helpLink {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.outer .footer .aboutUs .helpLink li {
+  display: inline;
+}
+.outer .footer .aboutUs .helpLink li .lin {
+  border-left: 1px solid #666;
+  width: 1px;
+  height: 13px;
+  background-color: #666;
+  margin: 8px 10px;
+}
+.outer .footer .aboutUs .helpLink li .nn2 {
+  border-left: none;
+}
+.outer .footer p {
+  text-align: center;
+  padding: 5px 0;
+}
+.outer .footer .address {
+  padding-bottom: 20px;
+}
+.outer .con {
+  width: 1200px;
+  margin: 15px auto 0;
+}
+.outer .con .conPoin {
+  padding: 9px 15px 9px 0;
+}
+.outer .con .conPoin > a + a:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #ccc;
+}
+.outer .con .mainCon {
+  *zoom: 1;
+  margin: 5px 0 15px;
+}
+.outer .con .mainCon:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .previewWrap {
+  width: 400px;
+  float: left;
+}
+.outer .con .mainCon .previewWrap .preview {
+  width: 400px;
+  height: 400px;
+  border: solid 1px #DFDFDF;
+  position: relative;
+}
+.outer .con .mainCon .previewWrap .preview .jqzoom {
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+.outer .con .mainCon .previewWrap .preview .jqzoom img {
+  width: 100%;
+}
+.outer .con .mainCon .previewWrap .preview .jqzoom .mask {
+  width: 200px;
+  height: 200px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.outer .con .mainCon .previewWrap .preview .maxbox {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 0;
+  left: 420px;
+  overflow: hidden;
+}
+.outer .con .mainCon .previewWrap .specScroll {
+  margin-top: 5px;
+  *zoom: 1;
+}
+.outer .con .mainCon .previewWrap .specScroll:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .previewWrap .specScroll:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .previewWrap .specScroll .prev,
+.outer .con .mainCon .previewWrap .specScroll .next {
+  width: 10px;
+  height: 54px;
+  background-color: #ebebeb;
+  border: 1px solid #ccc;
+  line-height: 54px;
+  text-align: center;
+}
+.outer .con .mainCon .previewWrap .specScroll .prev {
+  float: left;
+  margin-right: 4px;
+}
+.outer .con .mainCon .previewWrap .specScroll .next {
+  float: right;
+}
+.outer .con .mainCon .previewWrap .specScroll .photoWrap {
+  width: 372px;
+  height: 56px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+}
+.outer .con .mainCon .previewWrap .specScroll .photoWrap .photo {
+  position: absolute;
+  left: 0;
+  height: 56px;
+  width: 9999px;
+}
+.outer .con .mainCon .previewWrap .specScroll .photoWrap .photo img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  margin-right: 20px;
+}
+.outer .con .mainCon .information {
+  width: 700px;
+  float: right;
+}
+.outer .con .mainCon .information .infoma1 .titleA {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 15px;
+}
+.outer .con .mainCon .information .infoma1 .suges {
+  color: #e12228;
+  margin-top: 15px;
+}
+.outer .con .mainCon .information .infoma1 .priceArea {
+  margin-top: 10px;
+  line-height: 28px;
+  background-color: #fee9ec;
+  padding: 14px;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 {
+  *zoom: 1;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 .title {
+  margin-right: 15px;
+  float: left;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 .price {
+  float: left;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 .price i {
+  font-size: 16px;
+  color: red;
+  font-weight: bold;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 .price em {
+  font-size: 24px;
+  color: red;
+  font-weight: bold;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 .price span {
+  font-size: 12px;
+  color: red;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea1 .comment {
+  float: right;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2 {
+  *zoom: 1;
+  margin-top: 10px;
+  line-height: 28px;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2 .title2 {
+  margin-right: 15px;
+  float: left;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2 .addPrice {
+  width: 520px;
+  float: left;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2 .addPrice .plusbuy {
+  float: left;
+  background-color: #c81623;
+  padding: 3px;
+  color: #fff;
+  margin-right: 6px;
+}
+.outer .con .mainCon .information .infoma1 .priceArea .priceArea2 .addPrice .saleMassage {
+  color: #999;
+  line-height: 26px;
+}
+.outer .con .mainCon .information .infoma1 .support {
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  line-height: 28px;
+}
+.outer .con .mainCon .information .infoma1 .support .supportArea {
+  *zoom: 1;
+}
+.outer .con .mainCon .information .infoma1 .support .supportArea:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .support .supportArea:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .support .supportArea .sutitle {
+  margin-right: 15px;
+  float: left;
+}
+.outer .con .mainCon .information .infoma1 .support .supportArea .slogan {
+  width: 520px;
+  color: #999;
+  float: left;
+}
+.outer .con .mainCon .information .infoma1 .deliver {
+  *zoom: 1;
+}
+.outer .con .mainCon .information .infoma1 .deliver:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .deliver:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .infoma1 .deliver .deliverTo {
+  float: left;
+  margin-right: 10px;
+}
+.outer .con .mainCon .information .infoma1 .deliver .zone {
+  width: 520px;
+  color: #999;
+  float: left;
+}
+.outer .con .mainCon .information .chooseArea .choose {
+  margin-top: 10px;
+  line-height: 28px;
+}
+.outer .con .mainCon .information .chooseArea .choose .creachoose mark {
+  height: 30px;
+  border: 1px solid #ddd;
+  background-color: snow;
+  line-height: 30px;
+  padding: 0 20px;
+  margin-right: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+.outer .con .mainCon .information .chooseArea .choose .creachoose a {
+  color: red;
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.outer .con .mainCon .information .chooseArea .choose dl {
+  margin: 13px 0;
+  *zoom: 1;
+}
+.outer .con .mainCon .information .chooseArea .choose dl:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .chooseArea .choose dl:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .chooseArea .choose dl dt {
+  float: left;
+  margin-right: 15px;
+}
+.outer .con .mainCon .information .chooseArea .choose dl dd {
+  cursor: pointer;
+  float: left;
+  margin-right: 5px;
+  color: #666;
+  line-height: 24px;
+  padding: 2px 14px;
+  border-top: #eee 1px solid;
+  border-left: #eee 1px solid;
+  border-right: #bbb 1px solid;
+  border-bottom: #bbb 1px solid;
+}
+.outer .con .mainCon .information .chooseArea .choose dl dd:nth-of-type(1) {
+  color: red;
+}
+.outer .con .mainCon .information .carWrap {
+  *zoom: 1;
+}
+.outer .con .mainCon .information .carWrap:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .carWrap:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .carWrap .pmt {
+  float: left;
+  width: 56px;
+  margin-right: 15px;
+  position: relative;
+}
+.outer .con .mainCon .information .carWrap .pmt .itext {
+  width: 38px;
+  height: 37px;
+  border: 1px solid #ddd;
+  color: #555;
+  text-align: center;
+  line-height: 37px;
+}
+.outer .con .mainCon .information .carWrap .pmt .itext:focus {
+  outline: none;
+}
+.outer .con .mainCon .information .carWrap .pmt .plus,
+.outer .con .mainCon .information .carWrap .pmt .mins {
+  width: 15px;
+  height: 18px;
+  background-color: #f1f1f1;
+  color: #666;
+  position: absolute;
+  text-align: center;
+  right: 0;
+  border: 1px solid #ccc;
+}
+.outer .con .mainCon .information .carWrap .pmt .plus {
+  top: 0;
+}
+.outer .con .mainCon .information .carWrap .pmt .mins {
+  top: 20px;
+  border-top: none;
+}
+.outer .con .mainCon .information .carWrap .addToCar {
+  *zoom: 1;
+}
+.outer .con .mainCon .information .carWrap .addToCar:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .carWrap .addToCar:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .con .mainCon .information .carWrap .addToCar a {
+  float: left;
+  padding: 0 25px;
+  height: 36px;
+  font-size: 16px;
+  background-color: #e1251b;
+  text-align: center;
+  line-height: 36px;
+  color: #fff;
+}
+.outer .itemSuges {
+  width: 1200px;
+  margin: 30px auto 0;
+  *zoom: 1;
+}
+.outer .itemSuges:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .outBoxs {
+  width: 210px;
+  border: 1px solid #ccc;
+  float: left;
+}
+.outer .itemSuges .outBoxs .title2 {
+  height: 40px;
+  *zoom: 1;
+}
+.outer .itemSuges .outBoxs .title2:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .outBoxs .title2:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .outBoxs .title2 h4 {
+  float: left;
+  text-align: center;
+  line-height: 36px;
+  width: 105px;
+  border-top: 3px solid #fff;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+.outer .itemSuges .outBoxs .title2 h4.active {
+  border-top-color: #e1251b;
+  border-bottom-color: #fff;
+}
+.outer .itemSuges .outBoxs .contentBar {
+  padding: 10px;
+}
+.outer .itemSuges .outBoxs .contentBar .brand {
+  display: none;
+}
+.outer .itemSuges .outBoxs .contentBar .brand.active {
+  display: block;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .contentListNav {
+  *zoom: 1;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .contentListNav:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .contentListNav:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .contentListNav li {
+  float: left;
+  width: 50%;
+  border-bottom: 1px dashed #ededed;
+  line-height: 28px;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li {
+  margin: 5px 0 15px;
+  border-bottom: 1px solid #ededed;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li .imgB {
+  text-align: center;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li .imgB img {
+  width: 152px;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li i {
+  font-size: 16px;
+  color: #c81623;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li span {
+  font-size: 16px;
+  color: #c81623;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li .herfff {
+  text-align: center;
+  margin: 5px 0;
+}
+.outer .itemSuges .outBoxs .contentBar .brand .listNav li .herfff a {
+  margin: 5px 0;
+  border: 1px solid #8c8c8c;
+  color: #8c8c8c;
+  padding: 2px 14px;
+  line-height: 18px;
+  text-align: center;
+}
+.outer .itemSuges .menuRight {
+  width: 980px;
+  float: right;
+}
+.outer .itemSuges .menuRight .menuBox {
+  border: 1px solid #ddd;
+  margin-bottom: 15px;
+}
+.outer .itemSuges .menuRight .menuBox h5 {
+  border-bottom: 1px solid #ddd;
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 5px 0 5px 15px;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu {
+  height: 170px;
+  padding-top: 10px;
+  *zoom: 1;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .leftItem {
+  width: 127px;
+  height: 165px;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  float: left;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .leftItem img {
+  width: 87px;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .leftItem p {
+  color: #c81623;
+  font-size: 16px;
+  font-weight: bold;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .leftItem i {
+  font-size: 16px;
+  position: absolute;
+  top: 48px;
+  right: -25px;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .itemSuges {
+  width: 668px;
+  height: 165px;
+  margin-top: 0;
+  float: left;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .itemSuges .itemSuges1 {
+  float: left;
+  width: 127px;
+  margin: 0 20px;
+  text-align: center;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .itemSuges .itemSuges1 img {
+  width: 120px;
+  height: 130px;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .itemSuges .itemSuges1 label {
+  display: block;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .itemSuges .itemSuges1 label input {
+  vertical-align: bottom;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .itemSuges .itemSuges1 label span {
+  vertical-align: bottom;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .result {
+  border-left: 1px solid #ddd;
+  width: 153px;
+  height: 165px;
+  margin-left: 10px;
+  padding-left: 10px;
+  float: left;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .result .had {
+  margin: 10px 0;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .result .pp1 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .result .pp2 {
+  color: #b1191a;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.outer .itemSuges .menuRight .menuBox .mainMenu .result .addCar a {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #e1251b;
+  border: none;
+  text-align: center;
+}
+.outer .itemSuges .menuRight .introdu .introBar {
+  background-color: #ededed;
+  *zoom: 1;
+}
+.outer .itemSuges .menuRight .introdu .introBar:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .menuRight .introdu .introBar:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .itemSuges .menuRight .introdu .introBar li {
+  float: left;
+}
+.outer .itemSuges .menuRight .introdu .introBar li + li > a {
+  border-left: 1px solid #ddd;
+}
+.outer .itemSuges .menuRight .introdu .introBar li.active a {
+  background-color: #E1251B;
+  color: #fff;
+}
+.outer .itemSuges .menuRight .introdu .introBar li a {
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 11px;
+  text-align: center;
+  color: #666;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+}
+.outer .itemSuges .menuRight .itemDetail .itemDetailList .itemDetail {
+  display: none;
+  padding: 10px;
+}
+.outer .itemSuges .menuRight .itemDetail .itemDetailList .itemDetail.active {
+  display: block;
+}
+.outer .itemSuges .menuRight .itemDetail .itemDetailList .itemDetail .goodsInfo li {
+  margin: 10px 0;
+}
+.outer .itemSuges .menuRight .itemDetail .itemDetailList .itemDetail .photoDetail img {
+  width: 100%;
+  vertical-align: bottom;
+}
+.outer .guessYouLikeBox {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+}
+.outer .guessYouLikeBox h4 {
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  padding: 5px 10px;
+  background-color: #f1f1f1;
+}
+.outer .guessYouLikeBox .gylItem {
+  padding: 15px 11px;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1 {
+  *zoom: 1;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1 .listDetail {
+  float: left;
+  width: 196px;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1 .listDetail img {
+  width: 167px;
+  height: 123px;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1 .listDetail p {
+  padding: 0 15px;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1 .listDetail .ppp {
+  padding: 0 15px;
+  font-size: 16px;
+  color: #c81623;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.outer .guessYouLikeBox .gylItem .listMenu1 .listDetail .comment {
+  padding: 0 15px;
+  margin-top: 20px;
+}

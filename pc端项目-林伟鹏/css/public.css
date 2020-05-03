@@ -1,0 +1,185 @@
+.outer .headerWrap .headerBar {
+  width: 100%;
+  background-color: #eaeaea;
+  height: 30px;
+  line-height: 30px;
+}
+.outer .headerWrap .headerBar .container {
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.outer .headerWrap .headerBar .container:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap .headerBar .container .login {
+  float: left;
+}
+.outer .headerWrap .headerBar .container .login p {
+  float: left;
+  margin-right: 10px;
+}
+.outer .headerWrap .headerBar .container .login p .register {
+  border-left: 1px solid #b3aeae;
+  margin-left: 5px;
+  padding: 0 5px;
+}
+.outer .headerWrap .headerBar .container .order {
+  float: right;
+  font-size: 0;
+}
+.outer .headerWrap .headerBar .container .order a {
+  font-size: 12px;
+  padding: 0 10px;
+}
+.outer .headerWrap .headerBar .container .order a ~ a {
+  border-left: 1px solid #b3aeae;
+}
+.outer .headerWrap > .logo {
+  width: 1200px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.outer .headerWrap > .logo:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap > .logo .logoArea {
+  float: left;
+}
+.outer .headerWrap > .logo .logoArea img {
+  width: 175px;
+  height: 56px;
+  margin: 25px 45px;
+}
+.outer .headerWrap > .logo .searchBar {
+  float: right;
+  margin-top: 35px;
+}
+.outer .headerWrap > .logo .searchBar .searchForm {
+  *zoom: 1;
+}
+.outer .headerWrap > .logo .searchBar .searchForm:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .headerWrap > .logo .searchBar .searchForm input {
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0 10px;
+  border: 2px solid #ea4a36;
+  float: left;
+}
+.outer .headerWrap > .logo .searchBar .searchForm input:focus {
+  outline: none;
+}
+.outer .headerWrap > .logo .searchBar .searchForm button {
+  width: 68px;
+  height: 32px;
+  background-color: #ea4a36;
+  color: #fff;
+  border: none;
+  float: left;
+  cursor: pointer;
+}
+.outer .headerWrap > .logo .searchBar .searchForm button:focus {
+  outline: none;
+}
+.outer .typeNav {
+  border-bottom: #e1251b 2px solid;
+}
+.outer .typeNav .container {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+.outer .typeNav .container .all {
+  width: 210px;
+  height: 50px;
+  color: #fff;
+  background-color: #e1251b;
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.outer .typeNav .container .nav a {
+  font-size: 16px;
+  color: #333;
+  line-height: 50px;
+  margin: 0 22px;
+}
+.outer .footer {
+  margin-top: 15px;
+  width: 100%;
+  background-color: #eaeaea;
+}
+.outer .footer .footerWrap {
+  width: 1200px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e4e1e1;
+  padding: 20px;
+  *zoom: 1;
+}
+.outer .footer .footerWrap:after {
+  content: "\200B";
+  display: block;
+  clear: both;
+  height: 0;
+}
+.outer .footer .footerWrap .no1 {
+  padding-left: 40px;
+}
+.outer .footer .footerWrap .service {
+  float: left;
+  width: 16.66666%;
+  line-height: 18px;
+}
+.outer .footer .footerWrap .service + service {
+  padding-left: 20px;
+}
+.outer .footer .footerWrap .service h5 {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+}
+.outer .footer .footerWrap .help h5 {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #000;
+}
+.outer .footer .aboutUs {
+  padding: 20px;
+}
+.outer .footer .aboutUs .helpLink {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.outer .footer .aboutUs .helpLink li {
+  display: inline;
+}
+.outer .footer .aboutUs .helpLink li .lin {
+  border-left: 1px solid #666;
+  width: 1px;
+  height: 13px;
+  background-color: #666;
+  margin: 8px 10px;
+}
+.outer .footer .aboutUs .helpLink li .nn2 {
+  border-left: none;
+}
+.outer .footer p {
+  text-align: center;
+  padding: 5px 0;
+}
+.outer .footer .address {
+  padding-bottom: 20px;
+}
