@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>消息发布</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        em{
+            font-style: normal;
+        }
+    
+        body {
+            background: #fff;
+        }
+    
+        .btn {
+            display: inline-block;
+            padding: 4px 12px;
+            margin-bottom: 0;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            vertical-align: middle;
+            cursor: pointer;
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+        }
+    
+        .btn-danger {
+            color: #fff;
+            background-color: #da4f49;
+            border: 1px solid #bd362f;
+        }
+    
+        .btn-danger:hover {
+            color: #fff;
+            background-color: #bd362f;
+        }
+    
+        .btn:focus {
+            outline: none;
+        }
+    
+        input:focus {
+            box-shadow: 0px 0px 8px rgba(88, 170, 235, 0.8), inset 1px 3px 3px rgba(0, 0, 0, 0.03);
+        }
+        .wrap{
+            width: 600px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 50px auto;
+            overflow: hidden;
+        }
+        .wrap .content{
+            box-sizing: border-box;
+            padding-left:10px ;
+            margin-bottom:30px ;
+            width:100%;
+            height: 30px;
+            border-radius: 5px;
+            border:1px solid #ddd ;
+            outline: none;
+        }
+        .wrap .task-box{
+            border:1px solid #ddd;
+            width: 100%;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        .wrap .task-box li{
+            border-bottom:1px solid  #ddd ;
+            height: 40px;
+            line-height: 40px;
+            padding-left:10px ;
+        }
+        .wrap .task-box li:last-child{
+            border-bottom: none;
+        }
+        .wrap .task-box li button{
+            float:right;
+            margin-right: 10px;
+            margin-top: 5px;
+            display: none;
+        }
+        .wrap .task-box li input{
+           box-shadow: none;
+        }
+        .wrap .operation{
+            margin-top: 15px;
+            overflow:hidden;
+        }
+        .wrap .operation input{
+            box-shadow: none;
+        }
+        .wrap .operation em{
+            margin: 0 5px;
+        }
+        .wrap .operation button{
+            float: right;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <input class="content" placeholder="请输入你的任务，回车确认" type="text">
+        <ul class="task-box">
+        </ul>
+        <div class="operation">
+            <input type="checkbox">
+            <span>已完成<em class="complete"></em>/全部<em class="all"></em></span>
+            <button class="delAll btn btn-danger">删除已完成任务</button>
+        </div>
+    
+    </div>
+    <script src="js/jQuery/jquery-2.1.4/jquery.min.js"></script>
+    <script>
+        //动态加载数据
+        var obj = {
+            data:[
+                {content:"小白菜"},
+                {content:"大白菜"},
+                {content:"小小白菜"}
+            ]
+        }
+        $.each(obj.data,function(index,item){
+            var li = `<li>
+                    <label>
+                        <input type="checkbox">
+                        <span>${item.content}</span>
+                    </label>
+                    <button class="del btn btn-danger">删除</button>
+                </li>` 
+            $(".task-box").append(li);
+
+        })
+        //给li添加背景 以及 删除按钮显示
+        $(".task-box").on("mouseenter","li",function(){
+            $(this).css("backgroundColor","#eee").find("button").show();
+        }).on("mouseleave","li",function(){
+            $(this).css("backgroundColor","#fff").find("button").hide();
+        })
+        //给li 的多选框板定事件
+        $(".task-box").on("change","label",function(){
+            var checkedLe = $(".task-box label input:checked").length;
+            var Le = $(".task-box label input").length;
+            //设置全选按钮
+            if(checkedLe === Le){
+                $(".operation input").prop("checked",true);
+            }else{
+                $(".operation input").prop("checked",false);
+            }
+            //设置已完成数
+            setEventNub();
+            
+        })
+        //全选按钮板定点击事件
+        $(".operation input").change(function(){
+          
+            if($(this).prop("checked")){
+               $(".task-box li input").prop("checked",true);
+              
+            }else{
+                $(".task-box li input").prop("checked",false);
+            }
+            //设置已完成事件
+            setEventNub();
+
+        })
+        //删除按钮板定事件
+        $(".task-box").on("click","button",function(){
+            var index = $(this).parent().index();
+            $(this).parent().slideUp(700,function(){
+               $(this).remove();
+               obj.data.splice(index,1);
+               setEventNub();
+            })
+        })
+        //全部删除按钮绑定事件
+        $(".operation button").click(function(){
+           
+            $(".task-box li input:checked").each(function(index,item){
+                
+                var _this = $(this);
+                obj.data.forEach(function(item,index){
+                   
+                    if(item.content === _this.siblings().html()){
+                        obj.data.splice(index,1);
+        
+                    }
+                })
+                _this.parent().parent().remove();
+                setEventNub();
+
+            })
+        })
+
+        //内容收入框绑定事件
+        $(".wrap .content").keypress(function(e){
+            if(e.keyCode === 13){
+                if($(this).val().trim() !=="" ){
+                    var li =`<li>
+                            <label>
+                                <input type="checkbox">
+                                <span>${$(this).val().trim()}</span>
+                            </label>
+                            <button class="del btn btn-danger">删除</button>
+                       </li>`
+                    $(li).prependTo($(".task-box")).hide(0).slideDown(700);
+                    obj.data.unshift($(this).val().trim());
+                    $(this).val("");
+                    setEventNub();
+                    $(".operation input").prop("checked",false);
+
+                }else{
+                    alert("输入框不能为空")
+                }
+            }
+           
+        })
+
+        
+        //设置已完成事件和所有事件
+        setEventNub();
+        function setEventNub() {
+            var complete = $(".task-box label input:checked").length;
+            var all = $(".task-box label input").length;
+            $(".operation .complete").html(complete).siblings().html(all);
+        }
+        
+
+
+       
+
+    </script>
+    
+</body>
+</html>
