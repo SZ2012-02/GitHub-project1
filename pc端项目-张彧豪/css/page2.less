@@ -1,0 +1,162 @@
+@import "public.less";
+.wrapper{
+    &>main{
+        width: 1200px;
+        margin: 0 auto;
+        color: #333;
+        font-size: 12px;
+        h3{
+            font-size: 14px;
+            font-weight: bold;
+            margin: 9px 0;
+        }
+        .all{
+            padding: 10px;
+            border: 1px solid rgb(221,221,221);
+            background-color: #f5f5f5;
+            span:nth-child(1){
+                margin-right: 250px;
+            }
+            span:nth-child(2){
+                margin-right: 282px;
+            }
+            span:nth-child(3){
+                margin-right: 120px;
+            }
+            span:nth-child(4){
+                margin-right: 105px;
+            }
+            span:nth-child(5){
+                margin-right: 110px;
+            }
+        }
+        .goods{
+            margin: 15px 0;
+            border: 1px solid rgb(221,221,221);
+            li{
+                height: 82px;
+                padding: 10px;
+                display: flex;
+                text-align: left;
+                &+li{
+                    border-top: 1px solid rgb(221,221,221);
+                }
+                input{
+                    margin-right: 35px;
+                }
+                &>p{
+                    display: block;
+                    width: 170px;
+                    padding: 10px;
+                    line-height: 18px;
+                    box-sizing: border-box;
+                    margin-right: 120px;
+                }
+                em{
+                    width: 14%;
+                }
+                i{
+                    margin-right: 125px;
+                }
+                .count{
+                    width: 40px;
+                    height: 33px;
+                    
+                    position: relative;
+                    margin-right: 100px;
+                    &>input{
+                        width: 40px;
+                        height: 31px;
+                        position: absolute;
+                        top: 0px;
+                        left: 0px;
+                        text-align: center;
+                        line-height: 33px;
+                        border: 1px solid rgb(221,221,221);
+                    }
+                    .minus{
+                        width: 23px;
+                        height: 33px;
+                        position: absolute;
+                        left: -23px;
+                        text-align: center;
+                        line-height: 33px;
+                        border: 1px solid rgb(221,221,221);
+                        border-right: none;
+                        padding-right: 1px;
+                        cursor: pointer;
+                    }
+                    .plus{
+                        width: 23px;
+                        height: 33px;
+                        position: absolute;
+                        left: 40px;
+                        text-align: center;
+                        line-height: 33px;
+                        border: 1px solid rgb(221,221,221);
+                        border-left: none;
+                        padding-left: 1px;
+                        cursor: pointer;
+                    }
+                }
+                .price{
+                    margin-right: 120px;
+                }
+                .operate{
+                    p{
+                        line-height: 18px;
+                    }
+                    .cancel{
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .bottom{
+            height: 52px;
+            border: 1px solid rgb(221,221,221);
+            padding: 10px;
+            .clearFix();
+            .left{
+                float: left;
+                input{
+                    vertical-align: middle;
+                    margin-right: 10px;
+                }
+                span{
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+                a{
+                    vertical-align: middle;
+                    margin-right: 15px;
+                }
+            }
+            .right{
+                float: right;
+                margin-top: 2px;
+                span:nth-child(3){
+                    margin-right: 10px;
+                }
+                span:nth-child(5){
+                    color: #c81623;
+                }
+                span:nth-child(6){
+                    margin-right: 10px;
+                    color: #c81623;
+                }
+                a{
+                    display: inline-block;
+                    width: 96px;
+                    text-align: center;
+                    line-height: 52px;
+                    height: 52px;
+                    color: white;
+                    background-color: #c81623;
+                    vertical-align: top;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
